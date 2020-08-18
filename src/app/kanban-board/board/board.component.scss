@@ -1,0 +1,46 @@
+.container-card{
+  width: 100%;
+}
+
+.cdk-drag-placeholder {
+  opacity: 0.5%;
+}
+
+.cdk-drag-animating {
+  transition: transform 300ms ease;
+}
+
+.cdk-drop-list-dragging .cdk-drag {
+  transition: transform 300ms ease;
+}
+
+.blue {
+  background: #71deff;
+  color: black;
+
+}
+
+.red {
+  background: #dc143c;
+  color: white;
+}
+
+.green{
+  background: #32cd32;
+  color: white;
+}
+
+.purple{
+  background: #9400d3;
+  color: white;
+}
+
+.yellow{
+  background: #ffd700;
+  color: black;
+}
+
+.grey{
+  background: #696969;
+  color: white;
+}

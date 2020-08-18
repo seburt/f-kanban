@@ -19,4 +19,10 @@
       <mat-card [ngClass]="task.label">{{task.description}}</mat-card>
     </div>
   </div>
+  <mat-card-footer>
+    <button mat-stroked-button (click)="openDialog()">
+      <mat-icon>add</mat-icon>
+    </button>
+  <app-delete-button (delete)="handleDelete()"></app-delete-button>
+  </mat-card-footer>
 </mat-card>
